@@ -2,15 +2,15 @@ class SwitchTest2{
 
   public static void main(String[] args) {
 
-	int lot = 3;	//•Ï”lot‚É10‚ğ‘ã“ü
-	switch(lot){	//switch•¶‚ÌğŒ‚Ålot‚ğ”»’è
+	int lot = 3;	//å¤‰æ•°lotã«10ã‚’ä»£å…¥
+	switch(lot){	//switchæ–‡ã®æ¡ä»¶ã§lotã‚’åˆ¤å®š
 
-      //ŠY“–‚·‚écase’l‚Ì•¶‚ğÀs
-      case 1: System.out.println("Ô‚ª“–‘I!"); //break;
-      case 2: System.out.println("—·s‚ª“–‘I!"); //break;
-      case 3: System.out.println("—â‘ ŒÉ‚ª“–‘I!"); //break;
-      case 4: System.out.println("ƒrƒfƒI‚ª“–‘I!"); //break;
-      default: System.out.println("‚Í‚¸‚ê‚Å‚·B"); //break;
+      //è©²å½“ã™ã‚‹caseå€¤ã®æ–‡ã‚’å®Ÿè¡Œ
+      case 1: System.out.println("å¶ãŒå½“é¸!"); //break;
+      case 2: System.out.println("å¶ãŒå½“é¸!"); //break;
+      case 3: System.out.println("å¶ãŒå½“é¸!"); //break;
+      case 4: System.out.println("å¶ãŒå½“é¸!"); //break;
+      default: System.out.println("ã¯ãšã‚Œã§ã™ã€‚"); //break;
     }
   }
 }
